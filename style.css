@@ -1,0 +1,761 @@
+@font-face {
+    font-family: myFont;
+    src: url(GillSansCondensed.otf);
+}
+
+@font-face {
+    font-family: Humanist521BT;
+    src: url(Humanist521BT.ttf);
+}
+
+@font-face {
+    font-family: CondensedBold;
+    src: url(CondensedBold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Humanist521BT;
+    color: #333;
+    background-color: #f2f2f2;
+    /* font-size: 1.6rem; */
+    /* line-height: 1.5; */
+}
+
+.head1list {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 27px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.head-container {
+    font-family: CondensedBold;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head1text2 {
+    color: #fcb026;
+
+
+}
+
+.head1text3 {
+    color: #fcb026;
+
+
+}
+
+.head1 {
+    width: 100%;
+    background-color: #262626;
+    height: 35px;
+}
+
+.whatsapp-icon {
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+.head1text1 {
+    font-family: CondensedBold;
+    font-weight: 700;
+    margin-right: 24px;
+    text-decoration: none;
+
+
+
+
+}
+
+.head1text2 {
+    font-family: CondensedBold;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-decoration: none;
+    margin-right: 11px;
+    padding-top: 3px;
+
+
+
+}
+
+.head1text3 {
+    font-family: CondensedBold;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.head2 {
+    width: 100%;
+    background: #fcb026;
+    display: flex;
+    height: 65px;
+}
+
+.jcb-logo {
+    width: 100px;
+    height: 73px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+}
+
+.black {
+    color: black;
+    margin-right: 20px;
+    font-family: CondensedBold;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+.head2list {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 167px;
+    margin-left: 1px;
+    margin-top: 22px;
+
+}
+
+.ultext2 {
+    color: black;
+    margin-right: 18px;
+    font-size: 16px;
+    font-family: CondensedBold;
+
+}
+
+.head2list2 {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 947px;
+    margin-top: 20px;
+}
+
+.body1 {
+    padding-top: -10px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.bodyimage {
+    width: 100%;
+    height: 94%;
+}
+
+.mainbody {
+    width: 700px;
+    height: 1138px;
+    background: #f2f2f2;
+    margin-left: 24%;
+    margin-top: 47px;
+}
+
+.body2 {
+    border-bottom: 2px solid black;
+    width: 700px;
+    height: 170px;
+    background-color: #f2f2f2;
+}
+
+#formtext {
+    text-align: center;
+    font-family: Humanist521BT;
+    font-size: 38px;
+    border-bottom-color: black;
+    font-weight: 400;
+    line-height: 43px;
+
+}
+
+.bodyform {
+    display: flex;
+    width: 700px;
+    height: 444px;
+    background-color: #f2f2f2;
+
+}
+
+.starcolor {
+    color: #fcb026;
+}
+
+.formleft {
+    width: 50%;
+    height: 444px;
+    background-color: #f2f2f2;
+
+}
+
+.formright {
+    width: 50%;
+    height: 444px;
+    background-color: #f2f2f2;
+}
+
+.formfieldl1 {
+    margin-top: 4%;
+    padding-top: 5%;
+    width: 100%;
+    height: 25%;
+    background-color: #f2f2f2;
+
+}
+
+.formfieldl2 {
+    margin-top: 3%;
+    width: 100%;
+    height: 20%;
+    background-color: #f2f2f2;
+}
+
+.formfieldl3 {
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    background-color: #f2f2f2;
+
+}
+
+::placeholder {
+    margin-left: 2%;
+    color: grey;
+    font-family: Humanist521BT;
+    font-size: 19px;
+
+}
+
+.formfieldl4 {
+    margin-top: 5%;
+    width: 100%;
+    height: 19%;
+    background-color: #f2f2f2;
+
+}
+
+.inputtext {
+    letter-spacing: 1px;
+    font-family: Humanist521BT;
+    color: #262626;
+
+}
+
+.inputboxl1 {
+    margin-top: 3%;
+    width: 94%;
+    height: 59%;
+    border: 1px solid lightgray;
+
+
+}
+
+.inputboxl2 {
+    margin-top: 3%;
+    width: 94%;
+    height: 59%;
+    border: 1px solid lightgray;
+}
+
+.inputboxl4 {
+    background-position: 286px 15px;
+    background-size: 24px 15px;
+    background-repeat: no-repeat;
+    background-image: url(icons8-chevron-down-48.png);
+}
+
+.inputboxl3 {
+    margin-top: 3%;
+    width: 94%;
+    height: 59%;
+    border: 1px solid lightgray;
+}
+
+.inputboxl4 {
+    margin-top: 3%;
+    width: 94%;
+    height: 59%;
+    border: 1px solid lightgray;
+}
+
+.formfieldright1 {
+    margin-left: 15px;
+    margin-top: 18%;
+    width: 200%;
+    height: 18%;
+    background-color: #f2f2f2;
+
+}
+
+.formfieldright2 {
+    margin-left: 15px;
+    margin-top: 27px;
+    width: 200%;
+    height: 17%;
+    background-color: #f2f2f2;
+
+}
+
+.formfieldright3 {
+    margin-left: 15px;
+    margin-top: 27px;
+    width: 200%;
+    height: 18px;
+    background-color: #f2f2f2;
+
+}
+
+.formfieldright4 {
+    margin-left: 15px;
+    margin-top: 90px;
+    width: 200%;
+    height: 76px;
+    background-color: #f2f2f2;
+
+}
+
+.inputboxright1 {
+    margin-top: 3%;
+    width: 94%;
+    height: 69%;
+    border: 1px solid lightgray;
+}
+
+.inputboxright2 {
+    margin-top: 8px;
+    width: 94%;
+    height: 69%;
+    border: 1px solid lightgray;
+}
+
+.inputboxright3 {
+    margin-top: 11px;
+    background-position: 286px 15px;
+    background-size: 24px 15px;
+    background-repeat: no-repeat;
+    background-image: url(icons8-chevron-down-48.png);
+    width: 94%;
+    height: 54px;
+    border: 1px solid lightgray;
+}
+
+.inputboxright4 {
+    background-position: 286px 15px;
+    background-size: 24px 15px;
+    background-repeat: no-repeat;
+    background-image: url(icons8-chevron-down-48.png);
+    margin-top: 3%;
+    width: 94%;
+    height: 67%;
+    border: 1px solid lightgray;
+}
+
+.formfooter {
+    border-bottom: 1px solid lightgray;
+    margin-top: 8px;
+    width: 100%;
+    height: 328px;
+    background-color: #f2f2f2;
+}
+
+.formfooterbox {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 100px;
+}
+
+.checkboxdiv {
+    width: 33px;
+    height: 61px;
+}
+
+.check{
+    margin-top: 27px;
+    width: 33px;
+    height: 33px;
+    border: 1px solid lightgray;
+}
+input[type=checkbox]{
+    accent-color: #fcb026;
+    mix-blend-mode: multiply;
+}
+.formfootertext {
+    display: contents;
+    width: 685px;
+    height: 108px;
+}
+
+.inputtext1 {
+    margin-left: 52px;
+    margin-top: -25px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    font-weight: 600;
+    font-family: Humanist521BT;
+    color: black;
+}
+
+.bodysubmit {
+    display: flex;
+    width: 100%;
+    height: 190px;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+.submitbotton {
+    display: flex;
+    background-color: #fcb026;
+    margin-top: 35px;
+    width: 240px;
+    height: 60px;
+    justify-content: center;
+}
+
+.colorblue {
+    color: blue;
+}
+
+.inputtext2 {
+    letter-spacing: 1px;
+    font-family: Humanist521BT;
+    color: black;
+    font-size: larger;
+}
+
+#submit {
+    margin-top: 19px;
+}
+
+.mainbody2 {
+    display: flex;
+    width: 100%;
+    height: 390px;
+    background-color: #262626;
+}
+
+.mainbody2child {
+    display: flex;
+    margin-left: 22px;
+    background-color: #262626;
+    width: 350px;
+    height: 222px;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainbodyboldtext {
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-family: CondensedBold;
+    color: #fcb026;
+}
+
+.mainbody2child2 {
+    background-color: #262626;
+    width: 975px;
+    height: 300px;
+}
+
+.inputtext3 {
+    margin-top: 70px;
+    font-size: larger;
+    margin-left: 114px;
+    line-height: 28px;
+    margin-right: 22px;
+    letter-spacing: 0px;
+    font-family: system-ui;
+    color: white;
+}
+
+/* .mainbody2child3{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 30px;
+} */
+#mainbodyboldtext1 {
+    font-size: larger;
+    margin-top: 87px;
+    margin-left: 118px;
+    font-family: Humanist521BT;
+    color: #fcb026;
+}
+
+.mainbody3 {
+    padding-top: 80px;
+    padding-left: 95px;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.mainbody3main {
+    display: flex;
+    width: 1159px;
+    height: 413px;
+    background-color: white;
+}
+
+.body3leftchild {
+    width: 50%;
+    height: 100%;
+}
+
+.body3rightchild {
+    width: 50%;
+    height: 100%;
+}
+
+.bodyimage1 {
+    width: 100%;
+    height: 99%;
+
+}
+
+.contentheader {
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+
+}
+
+.imageheader {
+    color: black;
+    margin-left: 53px;
+    font-weight: 900;
+    font-size: 1cm;
+    font-family: CondensedBold;
+}
+
+.contentdata {
+    padding-top: 26px;
+    padding-left: 50px;
+    padding-right: 70px;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 313px;
+}
+
+.imagedata {
+    font-family: 'Humanist521BT';
+    font-size: medium;
+    line-height: 21px;
+
+}
+
+.imagedata2 {
+    font-family: 'Humanist521BT';
+    font-weight: bold;
+    font-size: large;
+    line-height: 31px;
+
+}
+
+.imagedata3 {
+    font-family: 'Humanist521BT';
+    font-weight: bold;
+    font-size: inherit;
+    letter-spacing: 1px;
+}
+
+.imagedata4 {
+    font-family: 'Humanist521BT';
+    font-weight: bold;
+    font-size: inherit;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    line-height: 100px;
+
+}
+
+.bodyend {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+
+}
+
+.footer1 {
+    display: flex;
+    padding-top: 40px;
+    width: 100%;
+    height: 241px;
+
+}
+
+.footerleft {
+    width: 360px;
+    height: 200px;
+
+}
+
+.footerlist {
+    letter-spacing: 0px;
+    margin-left: 100px;
+    line-height: 28px;
+    color: white;
+    font-family: CondensedBold;
+    list-style: none;
+
+}
+
+.footercenter {
+    width: 230px;
+    height: 193px;
+}
+
+.footercentercontent {
+    margin-left: 25px;
+    margin-top: 7px;
+    width: 205px;
+    height: 96px;
+    list-style: none;
+    line-height: 24px;
+
+}
+
+.footerlistcenter {
+    letter-spacing: 0px;
+    margin-left: 100px;
+    line-height: 18px;
+    color: #fcb026;
+    font-family: CondensedBold;
+    list-style: none;
+}
+
+.footerright {
+    width: 300px;
+    height: 193px;
+    margin-left: 365px;
+
+
+}
+
+.footerrightbox1 {
+    margin-top: -30px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.footerrightbox2 {
+    width: 100%;
+    display: flex;
+    height: 25%;
+    align-items: center;
+}
+
+.footerrightbox3 {
+    width: 100%;
+    height: 25%;
+}
+
+.footerrightbox4 {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+}
+
+#footerrightboxtext1 {
+    font-size: medium;
+    font-family: 'Humanist521BT';
+    font-weight: 200;
+    margin-bottom: 45px;
+    margin-left: 182px;
+    color: silver;
+}
+
+#footerrightboxtext2 {
+    letter-spacing: -1px;
+    margin-left: 157px;
+    color: #fcb026;
+    font-family: CondensedBold;
+}
+
+.footericonbox {
+    display: flex;
+    margin-left: 90px;
+    list-style: none;
+}
+
+.footricon {
+    margin-right: 26px;
+}
+
+#footercredittext {
+    margin-left: 115px;
+    color: white;
+}
+
+#indiaicon {
+    margin-right: 5px;
+    width: 16px;
+    height: 14px;
+
+}
+
+.footer2 {
+    display: flex;
+    width: 100%;
+    height: 20px;
+
+}
+
+.footer2sub {
+    padding-left: 85px;
+    width: 50%;
+    height: 100%;
+}
+
+.footerlinks {
+    display: flex;
+    list-style: none;
+}
+
+.footerlink {
+    font-size: small;
+    margin-left: 13px;
+    font-family: Humanist521BT;
+    color: white;
+    font-weight: 200;
+}
+
+.copyright {
+    width: 50%;
+    height: 100%;
+    padding-left: 373px;
+}
